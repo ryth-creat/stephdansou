@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.debut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haut{
+    width: 100%;
+    height: 80px;
+    background: rgb(16, 41, 87);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.gauche{
+    display: flex;
+    justify-content: center;
+    
+}
+.hy{
+    margin-top: 23px;
+    cursor: pointer;
+    animation: rel 2s ;
+    color: #fff;
+    transition: ease-in .5s;
+}
+.hy:hover{
+    transform: scale(1.1);
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+.hy:hover{
+    color: aqua;
+}
+.navbar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar ul{
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+margin-right: 40px;
+list-style-type: none;
+}
+.navbar ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    animation: rel 2s;
+    color: #fff;
+    transition: ease-in .5s;
+}
+.navbar ul li a:hover{
+    color: aqua;
+    letter-spacing: .5px;
+    font-size: 18px;
+}
+.centre{
+    background: url(oui.jpg);
+    height: 20cm;
+    display: flex;
+    text-align:center ;
+    margin-top: 30PX;
+}
+.A1{
+   width: 600px;
+    height: 90px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+.one{
+    margin-top: -35px;
+}
+.descr{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.descr p{
+   /* margin-right: 140px;*/
+    color: #fff;
+    font-size: .80rem;
+
+}
+.descr img{
+margin-left: 90px;
+}
+.arr{
+    background: rgb(21, 21, 117);
+    height: 15cm;
+    margin-bottom: 230PX;
+
+}
+.acra{
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.petit{
+    background: rgb(207, 207, 196);
+    width: 600px;
+    height: 600px;
+    
+    
+}
+.B1{
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+}
+.B1 input{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 190px;
+    height: 40px;
+   /* border-radius: none;*/
+    border: 1px solid transparent;
+    background-color: aliceblue;
+}
+    
+.b-container{
+    margin-top: 45px;
+}
+.ht h2{
+ margin-left: 110px;  
+}
+.E1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 12px;
+}
+    .E1 input{
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 1px solid transparent;
+    }
+    .inputer{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 13px;
+    }
+    .tu{
+        width: 400px;
+        height: 50px;
+        background-color: aliceblue;
+        border: 1px solid transparent;
+        margin-top: 20px;
+    }
+    .tu img{
+        margin-left: 40px;
+        
+    }
+    .tu input{
+        border: 1px solid transparent;
+    }
+    
+    button{
+        width: 400px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: rgb(45, 45, 190);
+    }
+    .bout{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 30px;
+    }
+    .babu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(31, 29, 29);
+        height: 10cm;
+    }
+    .sos{
+        margin-top: 30px;
+    }
+    
+    .ko img{
+        width: 4=80px;
+        height: 40px;
+        margin-left: 70px;
+        border: 1px solid transparent;
+    }
+    .lit{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        list-style-type: none;
+    }
+    .yan {
+        color: #fff;
+        margin-left: 70px;
+        list-style-type: none;
+    }
+    .yan  li{
+        list-style-type: none;
+    }
+    .yan a{
+        text-decoration: none;
+        color: blue;
+    }
+    
+    .put{
+        margin-top: -90px;
+    }
+    .put input{
+        width: 400px;
+        height: 40px;
+        margin-bottom: 15px;
+        display: flex;
+        
+    }
+    .put button{
+        
+        background: aqua;
+    }
+    .nu{
+       margin-bottom: 120px;
+    }
+    
